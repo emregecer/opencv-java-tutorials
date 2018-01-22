@@ -1,4 +1,4 @@
-package com.emregecer.tutorial.opencv.javafx.hello;
+package com.emregecer.tutorial.opencv.javafx;
 	
 import org.opencv.core.Core;
 
@@ -41,7 +41,6 @@ public class FXHelloCV extends Application {
 					controller.setClosed();
 				}
 			});
-			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
